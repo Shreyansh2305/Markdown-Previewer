@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1rem;
+  margin: 10px 0;
+  font-weight: 900;
+  background: #87b5b5;
+  color: #212529;
+  text-align: left;
+  line-height: 1.5;
+}
+
+#editor{
+  max-width: 600px;
+  margin: 1.125rem auto;
+}
+
+.toolbar{
+  display: flex;
+  align-items: center;
+  background-color: #4aa3a3;
+  padding: 0.3rem;
+  border: 1px solid #1d2f2f;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  font-family: Russo One;
+    font-size: 1rem;
+    color: black;
+}
+
+.toolbar .editIcon{
+  width: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.toolbar .arrowIcon{
+  margin-left: auto;
+  width: 25px;
+}
+
+#text, #preview{
+  background-color: #c0d8d8;
+  border: 1px solid #1d2f2f;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  border-top: none;
+}
+
+#text{
+  width: 100%;
+  min-height: 200px;
+}
+
+#preview{
+  max-width: 800px;
+  margin: 1.25rem auto;
+  min-height: 200px;
+  overflow-wrap: break-word;
+}
+
+.previewbox{
+  padding: 0 1rem;
+}
+
